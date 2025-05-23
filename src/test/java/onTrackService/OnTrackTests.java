@@ -30,11 +30,13 @@ OnTrackService.ProgressReportService();
  String studentId = "s224092776"; 
  assertNotNull("Student ID is null", studentId); 
  } 
- @Test 
- public void testStudentName() { 
- String studentName = "Dharani"; 
- assertNotNull("Student name is null", studentName); 
- } 
+@Test
+public void testStudentName() {
+    String studentName = "Dharani";
+    assertEquals("John", studentName); // Intentionally wrong
+}
+
+ 
  
   // Task Collaboration Test Cases 
     
